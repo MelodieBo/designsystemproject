@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .footer {
+        font-family: $ff-text;
+        font-size: $fs-smaller;
+    }
+}

@@ -1,0 +1,51 @@
+body {
+    font-family: $ff-text;
+    color: $clr-gray-dark;
+}
+
+h1, h2, h3, h4 {
+    font-family: $ff-title;
+}
+
+p {
+    font-family: $ff-text;
+    font-size: $fs-small;
+    color: $clr-primary;
+}
+
+a {
+    font-family: $ff-link;
+}
+
+.img-fluid {
+    width: 100% \9;
+}
+
+.subtitle {
+    width: 7rem;
+    font-family: $ff-text;
+    font-size: $fs-small;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: solid 5px rgb(255, 255, 255);
+}
+.btn {
+    background-color: $clr-primary;
+    color: $clr-white;
+    &:hover {
+        background-color: $primaryDarken;
+        color: $clr-white;
+    }
+    &:active {
+        background-color: $primaryDarken;
+        color: $clr-white;
+    }
+    &:visited {
+        color: $clr-white;
+    }
+}
+#logo {
+    font-family: $ff-logo;
+    font-size: $fs-largest;
+    color: $clr-gray-dark;
+}

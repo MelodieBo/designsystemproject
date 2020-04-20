@@ -1,0 +1,27 @@
+.slide1 {
+  margin:0;
+  padding:0;
+  min-height: 100vh;
+  background: url(../img/mainImage2.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+#slide2 {
+    background: url(../img/mainImage3.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    height: 80vh;
+}
+
+#slide3 {
+    background: url(../img/mainImage1.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    background-position: center;
+    height: 80vh;
+}
+
+
+
+

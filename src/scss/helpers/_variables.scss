@@ -1,0 +1,52 @@
+// -- FamilyFonts
+$ff-text: 'Montserrat', sans-serif;
+$ff-title: 'Poppins', sans-serif;
+$ff-logo: 'Secular One', sans-serif;
+$ff-link: 'Poppins', sans-serif;
+
+// -- Tailles
+$fs-largest: 3rem; 
+$fs-large: 2.5rem;
+$fs-less: 2.3rem;
+$fs-normal: 1.6rem;
+$fs-small: 1.3rem;
+$fs-smaller: 0.8rem;
+
+// -- Primary
+$clr-primary: #144a82;
+$clr-secondary:#247fc2;
+$clr-high-light: #99ca3c;
+$clr-gray-base: #3a3b3f;
+$clr-neutral: #F5F5F5;
+$clr-white: #FFF;
+
+// -- Support Colors
+$red: #c22026;
+$orange: #f5a623;
+$green: #00751f;
+
+// -- Hover
+$primaryDarken: #0d3156;
+$secondaryDarken: #7ca62d;
+$whiteDarken: #e6e6e6;
+
+// -- Disable
+$primaryLighten: #8aa5c1;
+$secondaryLighten: #cce59e;
+$tertiaryLighten: #cacaca;
+
+// -- Gray Oscaro
+$light: #f3f3f3;
+$lightGrey: #e9e9e9;
+$grey: #cacaca;
+$mediumGrey: #999999;
+$dark: #3a3b3f;
+
+// -- Gray
+$clr-dark: #000;
+$clr-gray-dark: lighten($clr-dark,20%);   
+$clr-gray-light: lighten($clr-dark,70%); 
+$clr-gray-lighter: lighten($clr-dark,90%); 
+$clr-gray-lightest: lighten($clr-dark,95%);
+
+

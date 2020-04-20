@@ -1,0 +1,65 @@
+.heading1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.heading2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+}
+.heading3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}    
+.heading4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.blue {
+    color: $clr-primary;
+}
+
+.white {
+    color: $clr-white;
+    background-color: $clr-dark;
+}
+
+.standard {
+    font-size: 16px;
+    line-height: 24px;
+}
+.small {
+    font-size: 14px;
+    line-height: 21px;
+}
+.xsmall {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.cardText {
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    &.regular {
+        font-weight: 400;
+    }
+    &.semibold {
+        font-weight: 600;
+    }
+    &.bold {
+        font-weight: 700;
+    }
+    &.link {
+        font-weight: 400;
+        text-decoration: underline;
+        color: $clr-primary;
+    }
+}

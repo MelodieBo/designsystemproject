@@ -1,0 +1,23 @@
+#logo {
+    font-family: $ff-logo;
+    font-size: $fs-less;
+}
+
+.nav {
+    font-family: $ff-text;
+    font-size: $fs-small;
+    a{
+        padding: 0 1rem 0 0!important;
+        color: $clr-dark;
+        &:hover {
+            color: $clr-high-light;
+        }
+        &:active {
+            color: $clr-high-light
+        }
+    }
+}
+
+
+
+

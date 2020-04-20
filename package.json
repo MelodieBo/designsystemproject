@@ -1,0 +1,17 @@
+{
+  "name": "dsm-duplo-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass": "node-sass -w --output-style compressed src/scss -o dist/css"
+  },
+  "author": "Melodie",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "keywords": [],
+  "description": ""
+}

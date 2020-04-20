@@ -1,0 +1,17 @@
+.logoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fondBleu {
+    width: 100%;
+    min-height: 50vh;
+    background-color: $clr-primary;
+}
+
+#fondGris {
+    width: 100%;
+    min-height: 50vh;
+    background-color: $light;
+}

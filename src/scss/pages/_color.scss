@@ -1,0 +1,66 @@
+.cardColor {
+    width: 10rem;;
+    height: 10rem;
+    border-radius: 1rem;
+    &.blue {
+        background-color: $clr-primary!important;
+    }
+    &.secondary-blue {
+        background-color: $clr-secondary!important;
+    }
+    &.secondary-color {
+        background-color: $clr-high-light!important;
+    }
+    &.white {
+        background-color: $clr-white!important;
+    }
+    &.light {
+        background-color: $light!important;
+    }
+    &.lightGrey {
+        background-color: $lightGrey!important;
+    }
+    &.grey {
+        background-color: $grey!important;
+    }
+    &.mediumGrey {
+        background-color: $mediumGrey!important;
+    }
+    &.dark {
+        background-color: $dark!important;
+    }
+    &.red {
+        background-color: $red!important;
+    }
+    &.orange {
+        background-color: $orange!important;
+    }
+    &.green {
+        background-color: $green!important;
+    }
+    &.primaryDarken {
+        background-color: $primaryDarken!important;
+    }
+    &.secondaryDarken {
+        background-color: $secondaryDarken!important;
+    }
+    &.whiteDarken {
+        background-color: $whiteDarken!important;
+    }
+    &.primaryLighten {
+        background-color: $primaryLighten!important;
+    }
+    &.secondaryLighten {
+        background-color: $secondaryLighten!important;
+    }
+    &.tertiaryLighten {
+        background-color: $tertiaryLighten!important;
+    }
+}
+ 
+.colorBox {
+    .info {
+        font-size: $fs-smaller;
+        color: $clr-gray-base;
+    }
+}
