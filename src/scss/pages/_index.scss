@@ -6,22 +6,14 @@
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 }
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
 
-#slide2 {
-    background: url(../img/mainImage3.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
-    height: 80vh;
+@media (max-width: 767px) {
+
+  h1 {
+    color: $clr-white;
+  }
+
 }
-
-#slide3 {
-    background: url(../img/mainImage1.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
-    background-position: center;
-    height: 80vh;
-}
-
-
-
-
